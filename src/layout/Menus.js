@@ -6,22 +6,22 @@ export const Services = () => {
   return (
     <Fragment>
       <li>
-        <Link href="/services/hair-care">Hair Care</Link>
+        <Link href="/haircare">Hair Care</Link>
       </li>
       <li>
-        <Link href="/services/skin-care">Skin Care</Link>
+        <Link href="/skincare">Skin Care</Link>
       </li>
       <li>
-        <Link href="/services/body-care">Body Care</Link>
+        <Link href="/bodycare">Body Care</Link>
       </li>
       <li>
-        <Link href="/services/body-waxing">Body Waxing</Link>
+        <Link href="/bodywaxing">Body Waxing</Link>
       </li>
       <li>
-        <Link href="/services/manicures-pedicures">Manicures & Pedicures</Link>
+        <Link href="/manicurespedicures">Manicures & Pedicures</Link>
       </li>
       <li>
-        <Link href="/services/nails">Nails</Link>
+        <Link href="/nails">Nails</Link>
       </li>
     </Fragment>
   );

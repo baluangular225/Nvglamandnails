@@ -115,11 +115,11 @@ const DefaultHeader = ({
             <ul>
               <li>
                 <i className="far fa-clock" /> <span>Opening hours :</span>{" "}
-                Manday - friday, 08am - 05pm
+                Manday - Sunday, 08am - 08pm
               </li>
               <li>
                 <i className="flaticon-locations" /> <span>Address :</span> 55
-                Main Street, 2nd Block, New York
+                Main Street, Hyderabad
               </li>
             </ul>
           </div>
@@ -176,40 +176,6 @@ const DefaultHeader = ({
                 </div>
               </nav>
               {/* Main Menu End*/}
-            </div>
-            {/* Menu Button */}
-            <div className="menu-icons">
-              <button className="cart">
-                <i className="fas fa-shopping-cart" />
-              </button>
-              {/* Nav Search */}
-              <div className="nav-search py-15">
-                <button
-                  className="fa fa-search"
-                  onClick={() => setSearchToggle(!searchToggle)}
-                />
-                <form
-                  onClick={(e) => e.preventDefault()}
-                  action="#"
-                  className={`${searchToggle ? "" : "hide"}`}
-                >
-                  <input
-                    type="text"
-                    placeholder="Search"
-                    className="searchbox"
-                    required=""
-                  />
-                  <button type="submit" className="searchbutton fa fa-search" />
-                </form>
-              </div>
-              {/* menu sidbar */}
-              <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
-                <button>
-                  <span className="icon-bar" />
-                  <span className="icon-bar" />
-                  <span className="icon-bar" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
