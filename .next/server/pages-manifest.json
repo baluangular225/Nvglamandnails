@@ -1,9 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.js",
-  "/gallery/beauty": "pages/gallery/beauty.js",
-  "/gallery/hair": "pages/gallery/hair.js",
-  "/gallery/nails": "pages/gallery/nails.js"
+  "/_document": "pages/_document.js"
 }
