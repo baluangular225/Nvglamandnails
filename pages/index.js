@@ -151,62 +151,6 @@ const index3 = () => {
         </div>
       </section>
       {/* About Section End */}
-      {/* Booking Hours Section Start */}
-      <section className="booking-hours-area bg-light-gray rel z-1">
-        <div
-          className="booking-hour-image bgs-cover"
-          style={{
-            backgroundImage: "url(assets/images/booking/booking-three.jpg)",
-          }}
-        />
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-6">
-              <div className="booking-hours-content pb-150 pt-140 rpt-0 rpb-100 wow fadeInLeft delay-0-2s">
-                <div className="section-title mb-30">
-                  <span className="bg-text">menus</span>
-                  <span className="sub-title">Hair Salon</span>
-                  <h2>Working Hours</h2>
-                </div>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus voluptatem
-                  accusantium doloremque laudantium totam aperiame eaque quae
-                  abillo inventore veritatis
-                </p>
-                <ul className="booking-hours py-20 wow fadeInRight delay-0-2s">
-                  <li>
-                    <span className="date">Mon to Friday</span>{" "}
-                    <span className="symbol">:</span>{" "}
-                    <span className="time">7:30 am — 1:00 am</span>
-                  </li>
-                  <li>
-                    <span className="date">Satuaday</span>{" "}
-                    <span className="symbol">:</span>{" "}
-                    <span className="time">7:30 am — 1:00 am</span>
-                  </li>
-                  <li>
-                    <span className="date">Wednesday</span>{" "}
-                    <span className="symbol">:</span>{" "}
-                    <span className="time">7:30 am — 1:00 am</span>
-                  </li>
-                </ul>
-                <Link href="/booking">
-                  <a className="theme-btn style-six">
-                    booking now <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="booking-circle">
-          <img src="assets/images/shapes/service-circle.png" alt="Circle" />
-        </div>
-        <div className="booking-bg-icon">
-          <i className="flaticon-hair-iron" />
-        </div>
-      </section>
-      {/* Booking Hours Section End */}
       {/* Service Section Start */}
       <section className="service-section-two text-center pt-140 rpt-90 pb-120 rpb-70">
         <div className="container">
