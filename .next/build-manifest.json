@@ -25,20 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bodycare": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/bodycare.js"
-    ],
     "/bodywaxing": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/bodywaxing.js"
     ],
-    "/nails": [
+    "/haircare": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/nails.js"
+      "static/chunks/pages/haircare.js"
     ]
   },
   "ampFirstPages": []

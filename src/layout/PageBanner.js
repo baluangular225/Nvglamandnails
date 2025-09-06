@@ -1,16 +1,18 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-const PageBanner = ({ pageName, bgText, pageTitle, textAlign }) => {
+const PageBanner = ({ pageName, bgText, pageTitle, textAlign, imageurl }) => {
   return (
     <section
       className="page-banner text-white py-165 rpy-130"
-      style={{ backgroundImage: "url(assets/images/banners/page-banner.jpg)" }}
+      style={{
+        backgroundImage: `url(${imageurl || '/assets/images/banners/page-banner.jpg'})`,
+      }}
     >
       <div className="container">
-        <div className={`banner-inner text-${textAlign ? textAlign : "left"}`}>
-          <span className="bg-text">{bgText ? bgText : pageName}</span>
+        <div className={`banner-inner text-${textAlign || "left"}`}>
+          <span className="bg-text">{bgText || pageName}</span>
           <h1 className="page-title wow fadeInUp delay-0-2s">
-            {pageTitle ? pageTitle : pageName}
+            {pageTitle || pageName}
           </h1>
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb wow fadeInUp delay-0-4s">
@@ -25,4 +27,5 @@ const PageBanner = ({ pageName, bgText, pageTitle, textAlign }) => {
     </section>
   );
 };
+
 export default PageBanner;

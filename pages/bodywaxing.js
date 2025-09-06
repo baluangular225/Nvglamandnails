@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import CounterSection from "../src/components/CounterSection";
 import Layout from "../src/layout/Layout";
-import PageBanner from "../src/layout/PageBanner";
 import { activeSkillProgress } from "../src/utils";
+import PageBanner from "../src/layout/PageBanner";
 const Bodywaxing = () => {
   useEffect(() => {
     window.addEventListener("scroll", activeSkillProgress);
@@ -10,7 +10,7 @@ const Bodywaxing = () => {
 
   return (
     <Layout pageName={"Bodywaxing"}>
-      <PageBanner pageName={"Bodywaxing"} textAlign={"center"} />
+      <PageBanner pageName={"Bodywaxing"} textAlign={"center"} imageurl="/assets/images/banners/page-banner.jpg" />
 
       <section className="team-section rel z-1 py-150 rpy-100">
         <div className="container">
