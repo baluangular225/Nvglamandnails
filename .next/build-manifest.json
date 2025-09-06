@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/404": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +35,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/hair": [
+    "/gallery/beauty": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/hair.js"
+      "static/chunks/pages/gallery/beauty.js"
+    ],
+    "/gallery/hair": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/gallery/hair.js"
+    ],
+    "/gallery/nails": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/gallery/nails.js"
     ]
   },
   "ampFirstPages": []

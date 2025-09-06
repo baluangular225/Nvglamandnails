@@ -39,125 +39,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6">
-              <div className="about-page-left mb-30 wow fadeInUp delay-0-2s">
-                <img
-                  src="assets/images/about/about-page-left.jpg"
-                  alt="About"
-                />
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="about-page-right-video mb-30 wow fadeInUp delay-0-4s">
-                <img
-                  src="assets/images/about/about-page-right.jpg"
-                  alt="About"
-                />
-                <a
-                  href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                  className="mfp-iframe video-play"
-                >
-                  <i className="fas fa-play" />
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
       {/* About Section End */}
-      {/* Services Section Start */}
-      <section className="about-page pb-120 pt-110">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-8 col-md-9">
-              <div className="section-title text-center mb-65">
-                <span className="bg-text">Services</span>
-                <span className="sub-title">Our Services</span>
-                <h2>Popular Services We Provide For Customers</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="category-section">
-          <div className="category-item style-two wow fadeInUp delay-0-2s">
-            <i className="flaticon-nail" />
-            <div className="category-title">
-              <span className="bg-text">Category</span>
-              <h4>
-                <Link href="/service-details">Nail Polish</Link>
-              </h4>
-            </div>
-            <p>Quis autem velum reprender eoluptate velit esse</p>
-            <Link href="/service-details">
-              <a className="read-more">
-                read more <i className="fas fa-long-arrow-alt-right" />
-              </a>
-            </Link>
-          </div>
-          <div className="category-item style-two wow fadeInUp delay-0-4s">
-            <i className="flaticon-eyebrow" />
-            <div className="category-title">
-              <span className="bg-text">Category</span>
-              <h4>
-                <Link href="/service-details">Brow Polish</Link>
-              </h4>
-            </div>
-            <p>Quis autem velum reprender eoluptate velit esse</p>
-            <Link href="/service-details">
-              <a className="read-more">
-                read more <i className="fas fa-long-arrow-alt-right" />
-              </a>
-            </Link>
-          </div>
-          <div className="category-item style-two wow fadeInUp delay-0-6s">
-            <i className="flaticon-hairdresser" />
-            <div className="category-title">
-              <span className="bg-text">Category</span>
-              <h4>
-                <Link href="/service-details">Hair Dresser</Link>
-              </h4>
-            </div>
-            <p>Quis autem velum reprender eoluptate velit esse</p>
-            <Link href="/service-details">
-              <a className="read-more">
-                read more <i className="fas fa-long-arrow-alt-right" />
-              </a>
-            </Link>
-          </div>
-          <div className="category-item style-two wow fadeInUp delay-0-8s">
-            <i className="flaticon-pedicure" />
-            <div className="category-title">
-              <span className="bg-text">Category</span>
-              <h4>
-                <Link href="/service-details">Foot Massage</Link>
-              </h4>
-            </div>
-            <p>Quis autem velum reprender eoluptate velit esse</p>
-            <Link href="/service-details">
-              <a className="read-more">
-                read more <i className="fas fa-long-arrow-alt-right" />
-              </a>
-            </Link>
-          </div>
-          <div className="category-item style-two wow fadeInUp delay-1-0s">
-            <i className="flaticon-cosmetics" />
-            <div className="category-title">
-              <span className="bg-text">Category</span>
-              <h4>
-                <Link href="/service-details">Cosmetics</Link>
-              </h4>
-            </div>
-            <p>Quis autem velum reprender eoluptate velit esse</p>
-            <Link href="/service-details">
-              <a className="read-more">
-                read more <i className="fas fa-long-arrow-alt-right" />
-              </a>
-            </Link>
-          </div>
-        </div>
-      </section>
-      {/* Services Section End */}
       {/* Client Logo Section Start */}
       <div className="client-logos text-center pt-80 pb-70">
         <div className="container">
@@ -269,39 +153,6 @@ const About = () => {
         </div>
       </div>
       {/* Feedback Section End */}
-      {/* Instagram Section Start */}
-      <div className="instagram-section mb-120 rmb-70">
-        <div className="instagram-item wow fadeInUp delay-0-2s">
-          <img src="assets/images/instagram/instagram-1.jpg" alt="Instagram" />
-          <a href="assets/images/instagram/instagram-1.jpg">
-            <i className="fab fa-instagram" />
-          </a>
-        </div>
-        <div className="instagram-item wow fadeInUp delay-0-4s">
-          <img src="assets/images/instagram/instagram-2.jpg" alt="Instagram" />
-          <a href="assets/images/instagram/instagram-2.jpg">
-            <i className="fab fa-instagram" />
-          </a>
-        </div>
-        <div className="instagram-item wow fadeInUp delay-0-6s">
-          <img src="assets/images/instagram/instagram-3.jpg" alt="Instagram" />
-          <a href="assets/images/instagram/instagram-3.jpg">
-            <i className="fab fa-instagram" />
-          </a>
-        </div>
-        <div className="instagram-item wow fadeInUp delay-0-8s">
-          <img src="assets/images/instagram/instagram-4.jpg" alt="Instagram" />
-          <a href="assets/images/instagram/instagram-4.jpg">
-            <i className="fab fa-instagram" />
-          </a>
-        </div>
-        <div className="instagram-item wow fadeInUp delay-1-0s">
-          <img src="assets/images/instagram/instagram-5.jpg" alt="Instagram" />
-          <a href="assets/images/instagram/instagram-5.jpg">
-            <i className="fab fa-instagram" />
-          </a>
-        </div>
-      </div>
     </Layout>
   );
 };

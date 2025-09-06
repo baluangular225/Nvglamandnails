@@ -4,7 +4,7 @@ const PageBanner = ({ pageName, bgText, pageTitle, textAlign }) => {
   return (
     <section
       className="page-banner text-white py-165 rpy-130"
-      style={{ backgroundImage: "url(assets/images/banners/page-banner.jpg)" }}
+      style={{ backgroundImage: "url(/assets/images/banners/page-banner.jpg)" }}
     >
       <div className="container">
         <div className={`banner-inner text-${textAlign ? textAlign : "left"}`}>

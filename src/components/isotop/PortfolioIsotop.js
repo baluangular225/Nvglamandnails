@@ -1,20 +1,22 @@
 import Link from "next/link";
 
-const PortfolioIsotop = () => {
+
+
+const PortfolioIsotop = ({galleryName}) => {
   return (
     <section className="portfolio-section pt-140 rpt-90 pb-120 rpb-80">
       <div className="container-fluid">
         <div className="section-title text-center mb-45">
           <span className="bg-text">Gallery</span>
           <span className="sub-title">Photo Gallery</span>
-          <h2>Hair</h2>
+          <h2>{galleryName}</h2>
         </div>
         {/* Removed filter buttons and isotope logic */}
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-2s">
               <img
-                src="assets/images/projects/portfolio1.jpg"
+                src="/assets/images/projects/portfolio1.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -28,7 +30,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-4s">
               <img
-                src="assets/images/projects/portfolio2.jpg"
+                src="/assets/images/projects/portfolio2.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -42,7 +44,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-6s">
               <img
-                src="assets/images/projects/portfolio3.jpg"
+                src="/assets/images/projects/portfolio3.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -56,7 +58,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-8s">
               <img
-                src="assets/images/projects/portfolio4.jpg"
+                src="/assets/images/projects/portfolio4.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -70,7 +72,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-2s">
               <img
-                src="assets/images/projects/portfolio5.jpg"
+                src="/assets/images/projects/portfolio5.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -84,7 +86,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-4s">
               <img
-                src="assets/images/projects/portfolio6.jpg"
+                src="/assets/images/projects/portfolio6.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -98,7 +100,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-6s">
               <img
-                src="assets/images/projects/portfolio7.jpg"
+                src="/assets/images/projects/portfolio7.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -112,7 +114,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-8s">
               <img
-                src="assets/images/projects/portfolio8.jpg"
+                src="/assets/images/projects/portfolio8.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -126,7 +128,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-2s">
               <img
-                src="assets/images/projects/portfolio9.jpg"
+                src="/assets/images/projects/portfolio9.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -140,7 +142,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-4s">
               <img
-                src="assets/images/projects/portfolio10.jpg"
+                src="/assets/images/projects/portfolio10.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -154,7 +156,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-6s">
               <img
-                src="assets/images/projects/portfolio11.jpg"
+                src="/assets/images/projects/portfolio11.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">
@@ -168,7 +170,7 @@ const PortfolioIsotop = () => {
           <div className="col-xl-3 col-lg-4 col-sm-6">
             <div className="portfolio-item wow fadeInUp delay-0-8s">
               <img
-                src="assets/images/projects/portfolio12.jpg"
+                src="/assets/images/projects/portfolio12.jpg"
                 alt="Portfolio"
               />
               <div className="portfolio-content">

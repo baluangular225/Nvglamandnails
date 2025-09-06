@@ -111,7 +111,7 @@ const Header3 = ({
               <div className="logo">
                 <Link href="/">
                   <img
-                    src="assets/images/logos/white-logo.png"
+                    src="/assets/images/logos/white-logo.png"
                     alt="Logo"
                     title="Logo"
                   />

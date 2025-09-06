@@ -26,11 +26,11 @@ const Layout = ({
     <Fragment>
       <Head>
         {/* <!--====== Title ======--> */}
-        <title>Lezar - Beauty Salon React NextJS Template || {pageName}</title>
+        <title>Nvglamandnails - Beauty Salon React  || {pageName}</title>
         {/* <!--====== Favicon Icon ======--> */}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="/assets/images/favicon.png"
           type="image/x-icon"
         />
         {/* <!--====== Google Fonts ======--> */}

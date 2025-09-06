@@ -16,7 +16,7 @@ const index3 = () => {
           >
             <div className="container">
               <span className="bg-text">Hair Salon</span>
-              <span className="sub-title">Welcome to Lezar</span>
+              <span className="sub-title">Welcome to Nvglamandnails</span>
               <h1>Quality Hair Salon Center</h1>
               <div className="slider-btn">
                 <Link href="/about">
@@ -38,7 +38,7 @@ const index3 = () => {
           >
             <div className="container">
               <span className="bg-text">Hair Salon</span>
-              <span className="sub-title">Welcome to Lezar</span>
+              <span className="sub-title">Welcome to NvGlamAndNails</span>
               <h1>Quality Hair Salon Center</h1>
               <div className="slider-btn">
                 <Link href="/about">
@@ -158,7 +158,7 @@ const index3 = () => {
             <div className="col-xl-8 col-lg-9 col-md-10">
               <div className="section-title mb-65">
                 <span className="bg-text">Services</span>
-                <span className="sub-title">Who We Offer</span>
+                <span className="sub-title">Our Gallery</span>
                 <h2>Quality Hair Treatments</h2>
               </div>
             </div>
@@ -308,96 +308,7 @@ const index3 = () => {
         </div>
       </section>
       {/* Project Section End */}
-      {/* Booking Section Start */}
-      <section className="booking-section-three rel z-1 bg-light-gray pt-140 rpt-90 pb-150 rpb-100">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5">
-              <div className="booding-three-content rmb-55">
-                <div className="section-title mb-30">
-                  <span className="bg-text">Book</span>
-                  <span className="sub-title">Make Appointment</span>
-                  <h2>Get Hair Treatment Booking Seat</h2>
-                </div>
-                <Link href="/contact">
-                  <a className="read-more">
-                    learn more <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-7">
-              <form
-                onClick={(e) => e.preventDefault()}
-                action="#"
-                className="booking-from"
-              >
-                <div className="row clearfix">
-                  <div className="col-sm-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Full Name"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-sm-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email Address"
-                        required=""
-                      />
-                    </div>
-                  </div>
-                  <div className="col-sm-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="number"
-                        name="number"
-                        className="form-control"
-                        placeholder="Phone Number"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-sm-6 mb-30">
-                    <div className="form-group z-2">
-                      <select name="services" id="services">
-                        <option value="services">Services</option>
-                        <option value="service1">Hair Cutting</option>
-                        <option value="service2">Foot Massage</option>
-                        <option value="service3">Nail Colors</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="col-xl-6">
-                    <div className="form-group mb-0">
-                      <button
-                        type="submit"
-                        className="theme-btn w-100 style-six"
-                      >
-                        Make appointment{" "}
-                        <i className="fas fa-long-arrow-alt-right" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div className="booking-circle">
-          <img src="assets/images/shapes/service-circle.png" alt="Circle" />
-        </div>
-      </section>
-      {/* Booking Section End */}
+     
       {/* Products Section Start */}
       <section className="products-section text-center pt-140 rpt-90 pb-115 rpb-65">
         <div className="container">
@@ -529,106 +440,97 @@ const index3 = () => {
         </div>
       </div>
       {/* Feedback Section End */}
-      {/* Blog Section Start */}
-      <section className="blog-section rel z-1 pt-140 rpt-90 mb-120 rmb-70">
+       {/* Booking Section Start */}
+      <section className="booking-section-three rel z-1 bg-light-gray pt-140 rpt-90 pb-150 rpb-100">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-9 col-md-10">
-              <div className="section-title text-center mb-65">
-                <span className="bg-text">Blog</span>
-                <span className="sub-title">News &amp; Blog</span>
-                <h2>Latest News &amp; Blog</h2>
-              </div>
-            </div>
-          </div>
           <div className="row">
-            <div className="col-xl-4 col-md-6">
-              <div className="news-item-two">
-                <ul className="title-meta">
-                  <li>
-                    <i className="far fa-user-circle" /> <a href="#">Robert</a>
-                  </li>
-                  <li>
-                    <i className="far fa-comment-dots" /> <a href="#">(05)</a>
-                  </li>
-                </ul>
-                <h5>
-                  <Link href="/blog-details">
-                    Smase Podcast Episode Chris Ferdinande
-                  </Link>
-                </h5>
-                <div className="image">
-                  <Link href="/blog-details">
-                    <img src="assets/images/news/blog-two1.jpg" alt="Blog" />
-                  </Link>
+            <div className="col-lg-5">
+              <div className="booding-three-content rmb-55">
+                <div className="section-title mb-30">
+                  <span className="bg-text">Book</span>
+                  <span className="sub-title">Make Appointment</span>
+                  <h2>Get Hair Treatment Booking Seat</h2>
                 </div>
-                <p>Quis autem vel eurep ehenderit quin voluptate velit esse</p>
-                <Link href="/blog-details">
+                <Link href="/contact">
                   <a className="read-more">
                     learn more <i className="fas fa-long-arrow-alt-right" />
                   </a>
                 </Link>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="news-item-two">
-                <ul className="title-meta">
-                  <li>
-                    <i className="far fa-user-circle" /> <a href="#">Robert</a>
-                  </li>
-                  <li>
-                    <i className="far fa-comment-dots" /> <a href="#">(05)</a>
-                  </li>
-                </ul>
-                <h5>
-                  <Link href="/blog-details">
-                    Meet Touch Design For Mobile Interfaces
-                  </Link>
-                </h5>
-                <div className="image">
-                  <Link href="/blog-details">
-                    <img src="assets/images/news/blog-two2.jpg" alt="Blog" />
-                  </Link>
+            <div className="col-lg-7">
+              <form
+                onClick={(e) => e.preventDefault()}
+                action="#"
+                className="booking-from"
+              >
+                <div className="row clearfix">
+                  <div className="col-sm-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="form-control"
+                        placeholder="Full Name"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="form-control"
+                        placeholder="Email Address"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="number"
+                        name="number"
+                        className="form-control"
+                        placeholder="Phone Number"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-sm-6 mb-30">
+                    <div className="form-group z-2">
+                      <select name="services" id="services">
+                        <option value="services">Services</option>
+                        <option value="service1">Hair Cutting</option>
+                        <option value="service2">Foot Massage</option>
+                        <option value="service3">Nail Colors</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="form-group mb-0">
+                      <button
+                        type="submit"
+                        className="theme-btn w-100 style-six"
+                      >
+                        Make appointment{" "}
+                        <i className="fas fa-long-arrow-alt-right" />
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <p>Quis autem vel eurep ehenderit quin voluptate velit esse</p>
-                <Link href="/blog-details">
-                  <a className="read-more">
-                    learn more <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="news-item-two">
-                <ul className="title-meta">
-                  <li>
-                    <i className="far fa-user-circle" /> <a href="#">Robert</a>
-                  </li>
-                  <li>
-                    <i className="far fa-comment-dots" /> <a href="#">(05)</a>
-                  </li>
-                </ul>
-                <h5>
-                  <Link href="/blog-details">
-                    Guide To Modern CSS Colors With RGB
-                  </Link>
-                </h5>
-                <div className="image">
-                  <Link href="/blog-details">
-                    <img src="assets/images/news/blog-two3.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <p>Quis autem vel eurep ehenderit quin voluptate velit esse</p>
-                <Link href="/blog-details">
-                  <a className="read-more">
-                    learn more <i className="fas fa-long-arrow-alt-right" />
-                  </a>
-                </Link>
-              </div>
+              </form>
             </div>
           </div>
         </div>
+        <div className="booking-circle">
+          <img src="assets/images/shapes/service-circle.png" alt="Circle" />
+        </div>
       </section>
+      {/* Booking Section End */}
+
     </Layout>
   );
 };
