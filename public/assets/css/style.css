@@ -3720,6 +3720,7 @@ h6,
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
+  cursor: pointer;
 }
 @media only screen and (max-width: 991px) {
   .main-header .logo-outer {
@@ -6603,14 +6604,14 @@ h6,
 }
 .feedback-item-three .feedback-text {
   display: block;
-  font-size: 35px;
+  font-size: 22px;
   line-height: 1.56;
   text-align: center;
   color: #242424;
 }
 @media only screen and (max-width: 767px) {
   .feedback-item-three .feedback-text {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -9430,7 +9431,22 @@ h6,
   bottom: 2px;
   width: 80%;
 }
-
+.list-style-two li:before {
+    border-radius: 50px;
+    width: 24px;
+    height: 20px;
+    flex: none;
+    color: #fff;
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 20px;
+    background: #d6b981;
+    padding: 4px;
+}
+.list-style-two li {
+    padding-left: 25px;
+    display: flow;
+}
 .price-filter-details {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10174,7 +10190,7 @@ h6,
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .copyright-area .footer-menu {

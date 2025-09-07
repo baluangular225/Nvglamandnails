@@ -1,29 +1,17 @@
-import dynamic from "next/dynamic";
-import Layout from "/src/layout/Layout";
-import PageBanner from "/src/layout/PageBanner";
+// pages/gallery/hair.jsx
 
-const PortfolioIsotop = dynamic(
-  () => import("/src/components/isotop/PortfolioIsotop"),
-  {
-    ssr: false,
-  }
-);
+import Layout from "../../src/layout/Layout";
+import PageBanner from "../../src/layout/PageBanner";
+import NailsGalleryPage from "../../src/components/isotop/NailsGalleryPage";
 
 
-
-const nails = () => {
+const Hair = () => {
   return (
-    <Layout pageName={"Nail Gallery"}>
-      <PageBanner
-        pageName={"Nail Gallery"}
-        bgText="Gallery"
-        textAlign={"center"}
-      />
-      <PortfolioIsotop galleryName={"nails"}/>
+    <Layout pageName="Hair Gallery">
+      <PageBanner pageName="Nails Gallery" bgText="Gallery" textAlign="center" />
+      <NailsGalleryPage />
     </Layout>
-  )
-}
+  );
+};
 
-export default nails;
-
-
+export default Hair;

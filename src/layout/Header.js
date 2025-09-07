@@ -8,6 +8,7 @@ import {
   Services,
 } from "./Menus";
 import MobileMenu from "./MobileMenu";
+import Carrers from "../../pages/carrers";
 
 const Header = ({ header }) => {
   const [navToggle, setNavToggle] = useState(false);
@@ -61,12 +62,6 @@ const Menus = () => {
       </li>
       <li className="dropdown">
         <a href="/about">About us</a>
-        <div className="dropdown-btn">
-          <span className="fas fa-chevron-down" />
-        </div>
-        <ul>
-          <About />
-        </ul>
       </li>
       <li className="dropdown">
         <a href="#">Salon Services</a>
@@ -87,7 +82,7 @@ const Menus = () => {
         </div>
       </li>
       <li className="dropdown">
-        <a href="#">Careers</a>
+        <a href="/carrers">Careers</a>
       </li>
       <Contact />
     </ul>

@@ -12,7 +12,7 @@ const Nails = () => {
     <Layout pageName={"Nails"}>
       <PageBanner pageName={"Nails"} textAlign={"center"} />
 
-      <section className="team-section rel z-1 py-150 rpy-100">
+      <section className="team-section rel z-1 py-30 rpy-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -28,13 +28,12 @@ const Nails = () => {
                 <div className="section-title mb-30">
                   <span className="bg-text">Skills</span>
                   <span className="sub-title">Our Best Skills</span>
-                  <h2>We’ve 58+ Professional Team Members</h2>
+                  <h2>Nails at NV Glam & Nails</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperia eaque ipsa
-                  quae abillo inventore veritatis et quase
+                  Your nails deserve as much attention as the rest of you — and at NV Glam & Nails, we specialize in turning them into a true fashion statement. From classic elegance to bold, trendy designs, our nail experts help you achieve the perfect look that matches your personality and style.
                 </p>
+                <p>We use premium products, advanced techniques, and strict hygiene practices to ensure every nail service is safe, long-lasting, and flawless. Whether you want a quick polish refresh or a full set of extensions, we’ve got you covered.</p>
                 <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
                     <h6 className="skillbar-title">Quality Services</h6>
@@ -50,7 +49,7 @@ const Nails = () => {
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                  <div className="skillbar" data-percent={76}>
+                  <div className="skillbar" data-percent={92}>
                     <h6 className="skillbar-title">Experience Team</h6>
                     <div className="skillbar_container">
                       <span className="skillbar-bar" />
@@ -64,6 +63,24 @@ const Nails = () => {
         </div>
       </section>
       {/* Team Section End */}
+      <div className="container">
+        <p><b>✨ Our Nail Services</b></p>
+      <ul className="list-style-two">
+        <li>
+          <span style={{ color: '#d6b981' }}>Nail Extensions:</span> Acrylic, Gel, and Polygel extensions designed for a natural finish or dramatic glam. 
+          Durable, stylish, and customized to your preferred length and shape.
+        </li>
+        <li>
+          <span style={{ color: '#d6b981' }}>Gel Polish – Hands & Feet:</span> Chip-free, glossy shine that lasts for weeks. 
+          Choose from a wide collection of classic and trendy shades.
+        </li>
+        <li>
+          <span style={{ color: '#d6b981' }}>Nail Art & Custom Designs:</span> Minimal, chic, or bold statement nails crafted with creativity and precision. 
+          Unique designs tailored for parties, weddings, or everyday glam.
+        </li>
+      </ul>
+
+       </div>
       {/* Counter Section Start */}
       <CounterSection />
       {/* Counter Section End */}
@@ -149,75 +166,7 @@ const Nails = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="team-member wow fadeInUp delay-0-8s">
-                <img src="assets/images/teams/team-member-4.jpg" alt="Team" />
-                <div className="member-description">
-                  <h5>Jeanie L. Williams</h5>
-                  <span className="designations">Senior Manager</span>
-                  <div className="social-style-three">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="team-member wow fadeInUp delay-1-0s">
-                <img src="assets/images/teams/team-member-5.jpg" alt="Team" />
-                <div className="member-description">
-                  <h5>Elizabeth E. Baker</h5>
-                  <span className="designations">Senior Manager</span>
-                  <div className="social-style-three">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="team-member wow fadeInUp delay-1-2s">
-                <img src="assets/images/teams/team-member-6.jpg" alt="Team" />
-                <div className="member-description">
-                  <h5>Darren P. Abdullah</h5>
-                  <span className="designations">Senior Manager</span>
-                  <div className="social-style-three">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+         
           </div>
         </div>
       </section>

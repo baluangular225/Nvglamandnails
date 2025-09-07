@@ -34,7 +34,7 @@ const index3 = () => {
           </div>
           <div
             className="slider-single-item slider-single-item-2"
-            style={{ backgroundImage: "url(assets/images/slider/slider1.jpg)" }}
+            style={{ backgroundImage: "url(assets/images/slider/slider2.jpg)" }}
           >
             <div className="container">
               <span className="bg-text">Hair Salon</span>
@@ -56,7 +56,7 @@ const index3 = () => {
           </div>
           <div
             className="slider-single-item slider-single-item-3"
-            style={{ backgroundImage: "url(assets/images/slider/slider1.jpg)" }}
+            style={{ backgroundImage: "url(assets/images/slider/slider3.jpg)" }}
           >
             <div className="container">
               <span className="bg-text">Hair Salon</span>
@@ -310,7 +310,7 @@ const index3 = () => {
       {/* Project Section End */}
      
       {/* Products Section Start */}
-      <section className="products-section text-center pt-140 rpt-90 pb-115 rpb-65">
+      {/* <section className="products-section text-center pt-140 rpt-90 pb-115 rpb-65">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-9 col-md-10">
@@ -418,7 +418,7 @@ const index3 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Products Section End */}
       {/* Feedback Section Start */}
       <div className="feedback-section rel z-1 bg-light-gray">

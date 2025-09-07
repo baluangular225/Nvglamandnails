@@ -12,7 +12,7 @@ const Manicurespedicures = () => {
     <Layout pageName={"Manicures Pedicures"}>
       <PageBanner pageName={"Manicures Pedicures"} textAlign={"center"} />
 
-      <section className="team-section rel z-1 py-150 rpy-100">
+      <section className="team-section rel z-1 py-30 rpy-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -28,12 +28,10 @@ const Manicurespedicures = () => {
                 <div className="section-title mb-30">
                   <span className="bg-text">Skills</span>
                   <span className="sub-title">Our Best Skills</span>
-                  <h2>We’ve 58+ Professional Team Members</h2>
+                  <h2>Manicures & Pedicures</h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperia eaque ipsa
-                  quae abillo inventore veritatis et quase
+                  Pamper yourself with our professional manicure and pedicure services designed to refresh, rejuvenate, and beautify. From classic nail care to luxurious spa treatments, our experienced nail technicians are here to help you feel polished and confident
                 </p>
                 <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
@@ -50,7 +48,7 @@ const Manicurespedicures = () => {
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                  <div className="skillbar" data-percent={76}>
+                  <div className="skillbar" data-percent={92}>
                     <h6 className="skillbar-title">Experience Team</h6>
                     <div className="skillbar_container">
                       <span className="skillbar-bar" />
@@ -64,6 +62,24 @@ const Manicurespedicures = () => {
         </div>
       </section>
       {/* Team Section End */}
+      <div className="container">
+        <p><b>✨ Manicures & Pedicures</b></p>
+      <ul className="list-style-two">
+        <li>
+          <span style={{ color: '#d6b981' }}>Basic</span> Neat, clean, and refreshed nails with proper cuticle care and polish.
+        </li>
+        <li>
+          <span style={{ color: '#d6b981' }}>Spa</span> A relaxing experience with exfoliation, massage, and deep hydration for soft, healthy hands & feet.
+        </li>
+        <li>
+          <span style={{ color: '#d6b981' }}>Paraffin</span> Luxurious treatment with warm paraffin wax to deeply moisturize, soothe tired hands & feet, and improve skin texture.
+        </li>
+        <li>
+          <span style={{ color: '#d6b981' }}>Signature</span> Our premium indulgence that combines advanced care, extended massage, and nourishment for the ultimate pampering.
+        </li>
+      </ul>
+
+       </div>
       {/* Counter Section Start */}
       <CounterSection />
       {/* Counter Section End */}
@@ -131,75 +147,6 @@ const Manicurespedicures = () => {
                 <img src="assets/images/teams/team-member-3.jpg" alt="Team" />
                 <div className="member-description">
                   <h5>Teresa E. George</h5>
-                  <span className="designations">Senior Manager</span>
-                  <div className="social-style-three">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="team-member wow fadeInUp delay-0-8s">
-                <img src="assets/images/teams/team-member-4.jpg" alt="Team" />
-                <div className="member-description">
-                  <h5>Jeanie L. Williams</h5>
-                  <span className="designations">Senior Manager</span>
-                  <div className="social-style-three">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="team-member wow fadeInUp delay-1-0s">
-                <img src="assets/images/teams/team-member-5.jpg" alt="Team" />
-                <div className="member-description">
-                  <h5>Elizabeth E. Baker</h5>
-                  <span className="designations">Senior Manager</span>
-                  <div className="social-style-three">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-youtube" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="team-member wow fadeInUp delay-1-2s">
-                <img src="assets/images/teams/team-member-6.jpg" alt="Team" />
-                <div className="member-description">
-                  <h5>Darren P. Abdullah</h5>
                   <span className="designations">Senior Manager</span>
                   <div className="social-style-three">
                     <a href="#">

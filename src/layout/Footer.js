@@ -5,38 +5,22 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-3 col-sm-6">
             <div className="footer-widget menu-widget">
-              <h4 className="footer-title">About</h4>
-              <ul>
-                <li>
-                  <a href="#">Overview</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-3 col-sm-6">
-            <div className="footer-widget menu-widget">
               <h4 className="footer-title">Salon Services</h4>
               <ul>
-                <li>
-                  <a href="#">Hair care</a>
+                  <li>
+                  <a href="/hair">Hair care</a>
                 </li>
                 <li>
-                  <a href="#">Skin care</a>
+                  <a href="/beauty">Beauty</a>
                 </li>
                 <li>
-                  <a href="#">Body Care</a>
+                  <a href="makeup">Makeup</a>
                 </li>
                 <li>
-                  <a href="#">Body Waxing</a>
+                  <a href="manicurespedicures">Manicures & Pedicures</a>
                 </li>
                 <li>
-                  <a href="#">Body Treatments</a>
-                </li>
-                <li>
-                  <a href="#">Manicures & Pedicures</a>
-                </li>
-                <li>
-                  <a href="#">Nails</a>
+                  <a href="nails">Nails</a>
                 </li>
               </ul>
             </div>
@@ -46,33 +30,20 @@ const Footer = () => {
               <h4 className="footer-title">Gallery</h4>
               <ul>
                 <li>
-                  <a href="#">Hair</a>
+                  <a href="/gallery/hair">Hair</a>
                 </li>
                 <li>
-                  <a href="#">Beauty</a>
+                  <a href="/gallery/beauty">Beauty</a>
                 </li>
                 <li>
-                  <a href="#">Nails</a>
+                  <a href="/gallery/nails">Nails</a>
                 </li>
               </ul>
              
-              <div className="social-style-one pt-40">
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-linkedin-in" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-youtube" />
-                </a>
-              </div>
+             
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-6 col-sm-6">
             <div className="footer-widget contact-widget">
               <h4 className="footer-title">Contact</h4>
               <ul>
@@ -80,30 +51,44 @@ const Footer = () => {
                   <i className="fas fa-map-marker-alt" />
                   <div className="info-content">
                     <h5>Location</h5>
-                    <p>523 Main Street, Hyderabad</p>
+                    <p>NV Glam & Nails The Unisex Salon – KPHB
+1 ST FLOOR, HIG-3, near NEXUS MALL, K P H B Phase 9, Kukatpally, Hyderabad, Telangana 500085</p>
                   </div>
                 </li>
                 <li>
                   <i className="fas fa-phone-alt" />
                   <div className="info-content">
                     <h5>Hotline</h5>
-                    <p>Call : +91+ 123 456 789</p>
+                    <p>Call : +91 9640439996</p>
                   </div>
                 </li>
                 <li>
                   <i className="far fa-comment" />
                   <div className="info-content">
                     <h5>Email</h5>
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:support@gmail.com">info@nvglamandnails.com</a>
                   </div>
                 </li>
               </ul>
+               <div className="social-style-one pt-40">
+                 <a href="https://www.facebook.com/profile.php?id=61580350741076" target="_blank">
+                <i className="fab fa-facebook-f" />
+              </a>
+              <a href="https://www.instagram.com/nv.glam.and.nails/" target="_blank">
+                <i className="fab fa-instagram" />
+              </a>
+              <a href="https://wa.me/919640439996" target="_blank">
+                <i className="fab fa-whatsapp" />
+              </a>
+              <a href="#">
+                <i className="fab fa-youtube" />
+              </a>
+              </div>
             </div>
           </div>
         
         </div>
-        <div className="copyright-area pt-25 pb-15">
-        
+        <div className="copyright-area pt-25 pb-15 text-center">
           <p>© 2025 Nvglamandnails, All Rights Reserved</p>
         </div>
       </div>
@@ -141,38 +126,32 @@ export const Footer1 = () => {
         <div className="copyright-area pt-25 pb-45">
           <ul className="footer-menu py-5">
             <li>
-                  <a href="#">Hair care</a>
+                  <a href="/hair">Hair care</a>
                 </li>
                 <li>
-                  <a href="#">Skin care</a>
+                  <a href="/beauty">Beauty</a>
                 </li>
                 <li>
-                  <a href="#">Body Care</a>
+                  <a href="/makeup">Makeup</a>
                 </li>
                 <li>
-                  <a href="#">Body Waxing</a>
+                  <a href="/manicurespedicures">Manicures & Pedicures</a>
                 </li>
                 <li>
-                  <a href="#">Body Treatments</a>
-                </li>
-                <li>
-                  <a href="#">Manicures & Pedicures</a>
-                </li>
-                <li>
-                  <a href="#">Nails</a>
+                  <a href="/nails">Nails</a>
                 </li>
           </ul>
           <div className="copyright-social">
-            <p>© 2022 Lezar, All Rights Reserved</p>
+            <p>© 2025 Nvglamandnails, All Rights Reserved</p>
             <div className="social-style-two">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61580350741076" target="_blank">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="#">
-                <i className="fab fa-twitter" />
+              <a href="https://www.instagram.com/nv.glam.and.nails/" target="_blank">
+                <i className="fab fa-instagram" />
               </a>
-              <a href="#">
-                <i className="fab fa-linkedin-in" />
+              <a href="https://wa.me/919640439996" target="_blank">
+                <i className="fab fa-whatsapp" />
               </a>
               <a href="#">
                 <i className="fab fa-youtube" />

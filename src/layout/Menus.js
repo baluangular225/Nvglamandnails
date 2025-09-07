@@ -9,13 +9,10 @@ export const Services = () => {
         <Link href="/haircare">Hair Care</Link>
       </li>
       <li>
-        <Link href="/skincare">Skin Care</Link>
+        <Link href="/beauty">Beauty</Link>
       </li>
       <li>
-        <Link href="/bodycare">Body Care</Link>
-      </li>
-      <li>
-        <Link href="/bodywaxing">Body Waxing</Link>
+        <Link href="/makeup">Makeup</Link>
       </li>
       <li>
         <Link href="/manicurespedicures">Manicures & Pedicures</Link>
@@ -73,6 +70,7 @@ export const Shop = () => {
     </Fragment>
   );
 };
+
 export const Contact = () => {
   return (
     <Fragment>

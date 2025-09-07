@@ -296,29 +296,56 @@ export const FeedBackItemThree = () => {
         <Swiper {...props} className="feedback-wrap-three">
           <SwiperSlide className="feedback-item-three">
             <span className="feedback-text">
-              Sedut persiciatis unde omnis iste natus error sit voluptateme
-              accusantium dolore laudantium totam rem aperiam eaque ipsa quae
-              abillo inventore veritatis et arcitect beatae vitae
+              "I've been looking for a new salon for months and am so glad I found NV Glam & Nails. From the moment I walked in, I felt completely at ease. My stylist, Zeeshan, listened carefully to what I wanted and made some fantastic suggestions. I was nervous about changing my color, but the result is absolutely perfect—exactly what I was hoping for. The cut is flawless and easy to style at home. I can't wait to come back!"
             </span>
             <div className="author-description">
               <img src="assets/images/testimonials/author-1.jpg" alt="Author" />
               <div className="description">
-                <h5>Michael L. Morre</h5>
-                <span>Joniour Manager</span>
+                <h5>Dharani</h5>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="feedback-item-three">
             <span className="feedback-text">
-              Aaperiam eaque ipsa quae abillo inventore veritatis et arcitect
-              beatae vitae Sedut persiciatis unde omnis iste natus error sit
-              voluptateme accusantium dolore laudantium totam rem
+              "I went to NV Glam & Nails for my wedding nails and am so glad I did! My nail artist, Amar, spent so much time making sure every detail was perfect, and the final look was absolutely stunning. My nails were the perfect accessory, and they held up perfectly all night. I can't recommend them enough!"
             </span>
             <div className="author-description">
-              <img src="assets/images/testimonials/author-3.jpg" alt="Author" />
+              <img src="assets/images/testimonials/author-2.jpg" alt="Author" />
               <div className="description">
-                <h5>John C. Brookse</h5>
-                <span>Joniour Manager</span>
+                <h5>Chandana</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+           <SwiperSlide className="feedback-item-three">
+            <span className="feedback-text">
+              I absolutely loved my experience! The stylist truly understood what I wanted and gave me a look that suited my face perfectly. My hair has never felt or looked this good—stylish, manageable, and full of life. Highly recommend!
+            </span>
+            <div className="author-description">
+              <img src="assets/images/testimonials/author-1.jpg" alt="Author" />
+              <div className="description">
+                <h5>Praneeth</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="feedback-item-three">
+            <span className="feedback-text">
+              “From pleats to pallu, everything was draped so perfectly that I received compliments all evening.”
+            </span>
+            <div className="author-description">
+              <img src="assets/images/testimonials/author-2.jpg" alt="Author" />
+              <div className="description">
+                <h5>Sravanthi</h5>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="feedback-item-three">
+            <span className="feedback-text">
+              “Thank you for making me look and feel so special! The makeup was stunning yet comfortable, and I received endless compliments”
+            </span>
+            <div className="author-description">
+              <img src="assets/images/testimonials/author-2.jpg" alt="Author" />
+              <div className="description">
+                <h5>Nitya</h5>
               </div>
             </div>
           </SwiperSlide>

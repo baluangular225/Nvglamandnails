@@ -24,18 +24,20 @@ const About = () => {
             <div className="col-lg-7">
               <div className="about-page-right-text wow fadeInRight delay-0-2s">
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperia eaque ipsa
-                  quae abillo inventore veritatis quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim quia voluptas sit aspernatur
-                  aut odit aut fugit sed consequuntur magni dolores eos qui
-                  ratione voluptatem sequi nesciunt porro quisquam
+                 At NV Glam & Nails, we believe beauty is not just about looking good — it’s about feeling confident, empowered, and unapologetically yourself.
                 </p>
                 <p>
-                  Nemo enim quia voluptas sit aspernatur aut odit aut fugit sed
-                  consequuntur magni dolores ratione voluptatem sequi nesciunt
-                  quisquam
+                 We are a premium salon offering a complete range of Nails, Hair, Beauty, and Makeup services.
+Our highly skilled team is passionate about creating personalized transformations. Whether it’s a refreshing mani-pedi, a skin-reviving facial, or a bridal makeover, every service is delivered with utmost care, precision, and attention to detail.
                 </p>
+                <p><b>✨ Why Choose Us?</b></p>
+                <p>Professional, trained stylists & nail artists
+Premium products for lasting results
+Hygienic & relaxing salon environment
+Customized packages for every occasion
+Affordable luxury with exclusive offers
+At NV Glam & Nails, we don’t just offer services — we offer an experience of self-care, relaxation, and glam that leaves you glowing inside out.
+💖 Step in for a service, step out with confidence.</p>
               </div>
             </div>
           </div>

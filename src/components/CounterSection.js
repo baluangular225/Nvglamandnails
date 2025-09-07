@@ -6,22 +6,22 @@ const CounterSection = () => {
         <div className="row">
           <div className="col-lg-3 col-sm-6">
             <div className="counter-item wow fadeInUp delay-0-2s">
-              <Counter end={6203} />
+              <Counter end={2234} />
               <p>project complete</p>
             </div>
           </div>
           <div className="col-lg-3 col-sm-6">
             <div className="counter-item wow fadeInUp delay-0-4s">
-              <span className="count-text" data-speed={5000} data-stop={456}>
-                <Counter end={456} />
+              <span className="count-text" data-speed={5000} data-stop={15}>
+                <Counter end={15} />
               </span>
               <p>Expert Members</p>
             </div>
           </div>
           <div className="col-lg-3 col-sm-6">
             <div className="counter-item wow fadeInUp delay-0-6s">
-              <span className="count-text" data-speed={5000} data-stop={35}>
-                <Counter end={35} />
+              <span className="count-text" data-speed={5000} data-stop={10}>
+                <Counter end={10} />
               </span>
               <p>Years Experience</p>
             </div>
@@ -29,7 +29,7 @@ const CounterSection = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="counter-item wow fadeInUp delay-0-8s">
               <span className="count-text" data-speed={5000} data-stop={7563}>
-                <Counter end={7563} />
+                <Counter end={4523} />
               </span>
               <p>Saticfied Clients</p>
             </div>

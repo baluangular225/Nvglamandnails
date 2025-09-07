@@ -15,7 +15,8 @@ const Contact = () => {
               <div className="contact-info-item wow fadeInUp delay-0-2s">
                 <i className="fas fa-map-marker-alt" />
                 <h4>Location</h4>
-                <p>55 Main Street, 2nd Block, New York City</p>
+                <p>NV Glam & Nails The Unisex Salon – KPHB
+1 ST FLOOR, HIG-3, near NEXUS MALL, K P H B Phase 9, Kukatpally, Hyderabad, Telangana 500085</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
@@ -23,8 +24,7 @@ const Contact = () => {
                 <i className="fa fa-envelope-open-text" />
                 <h4>Email Us</h4>
                 <p>
-                  hotlineinfo@gmail.com <br />
-                  www.beautyinfo.net
+                  info@nvglamandnails.com 
                 </p>
               </div>
             </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                 <i className="fa fa-phone-alt" />
                 <h4>Hotline</h4>
                 <p>
-                  Call : <a href="callto:+012(345)7899">+012 (345) 7899</a>
+                  Call : <a href="callto:+012(345)7899">+91 9640439996</a>
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
       {/* Map Area Start */}
       <div className="contact-page-map wow fadeInUp delay-0-2s">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.4671820984163!2d78.38746259999999!3d17.4851982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91834241fe87%3A0x8304d30611c172c0!2sNV%20Glam%20%26%20Nails%20The%20Unisex%20Salon%20%E2%80%93%20KPHB!5e0!3m2!1sen!2sin!4v1757141290002!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121782.4879380892!2d78.22963245380443!3d17.47393577852337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91834241fe87%3A0x8304d30611c172c0!2sNV%20Glam%20%26%20Nails%20The%20Unisex%20Salon%20%E2%80%93%20KPHB!5e0!3m2!1sen!2sin!4v1757231819285!5m2!1sen!2sin"
           style={{ border: 0, width: "100%" }}
           allowFullScreen=""
           loading="lazy"
