@@ -7,7 +7,7 @@ import { logoSliderProps } from "../src/sliderProps";
 const About = () => {
   return (
     <Layout pageName={"About Us"}>
-      <PageBanner pageName={"About Us"} />
+       <PageBanner pageName={"About Us"} textAlign={"center"} imageurl="/assets/images/banners/page-banner-two.jpg" />
 
       <section className="about-page-section rel z-2 pt-140 rpt-90">
         <div className="container">
@@ -45,7 +45,7 @@ At NV Glam & Nails, we don’t just offer services — we offer an experience of
       </section>
       {/* About Section End */}
       {/* Client Logo Section Start */}
-      <div className="client-logos text-center pt-80 pb-70">
+      {/* <div className="client-logos text-center pt-80 pb-70">
         <div className="container">
           <Slider {...logoSliderProps} className="client-logo-wrap">
             <a href="#">
@@ -122,10 +122,10 @@ At NV Glam & Nails, we don’t just offer services — we offer an experience of
             </a>
           </Slider>
         </div>
-      </div>
+      </div> */}
       {/* Client Logo Section End */}
       {/* Feedback Section Start */}
-      <div className="feedback-section mb-150 rmb-100">
+      {/* <div className="feedback-section mb-150 rmb-100">
         <div className="container">
           <div className="about-page-feedback rel z-1 bg-butter">
             <div className="row">
@@ -153,7 +153,7 @@ At NV Glam & Nails, we don’t just offer services — we offer an experience of
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Feedback Section End */}
     </Layout>
   );
