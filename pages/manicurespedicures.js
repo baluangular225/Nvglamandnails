@@ -18,7 +18,7 @@ const Manicurespedicures = () => {
             <div className="col-lg-6">
               <div className="team-left rmb-55 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/teams/team-left.jpg"
+                  src="assets/images/teams/team-left3.jpg"
                   alt="Team Section"
                 />
               </div>
@@ -33,7 +33,7 @@ const Manicurespedicures = () => {
                 <p>
                   Pamper yourself with our professional manicure and pedicure services designed to refresh, rejuvenate, and beautify. From classic nail care to luxurious spa treatments, our experienced nail technicians are here to help you feel polished and confident
                 </p>
-                <div className="skillbar-wrap">
+                {/* <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
                     <h6 className="skillbar-title">Quality Services</h6>
                     <div className="skillbar_container">
@@ -55,7 +55,7 @@ const Manicurespedicures = () => {
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

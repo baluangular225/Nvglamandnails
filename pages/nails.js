@@ -18,7 +18,7 @@ const Nails = () => {
             <div className="col-lg-6">
               <div className="team-left rmb-55 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/teams/team-left.jpg"
+                  src="assets/images/teams/team-left4.jpg"
                   alt="Team Section"
                 />
               </div>
@@ -34,7 +34,7 @@ const Nails = () => {
                   Your nails deserve as much attention as the rest of you — and at NV Glam & Nails, we specialize in turning them into a true fashion statement. From classic elegance to bold, trendy designs, our nail experts help you achieve the perfect look that matches your personality and style.
                 </p>
                 <p>We use premium products, advanced techniques, and strict hygiene practices to ensure every nail service is safe, long-lasting, and flawless. Whether you want a quick polish refresh or a full set of extensions, we’ve got you covered.</p>
-                <div className="skillbar-wrap">
+                {/* <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
                     <h6 className="skillbar-title">Quality Services</h6>
                     <div className="skillbar_container">
@@ -56,7 +56,7 @@ const Nails = () => {
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

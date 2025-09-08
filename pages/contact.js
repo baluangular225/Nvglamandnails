@@ -11,15 +11,17 @@ const Contact = () => {
       <section className="contact-info-section pt-150 rpt-100 pb-120 rpb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-6 col-sm-6">
               <div className="contact-info-item wow fadeInUp delay-0-2s">
                 <i className="fas fa-map-marker-alt" />
                 <h4>Location</h4>
                 <p>NV Glam & Nails The Unisex Salon – KPHB
 1 ST FLOOR, HIG-3, near NEXUS MALL, K P H B Phase 9, Kukatpally, Hyderabad, Telangana 500085</p>
+                <p>NV Glam & Nails The Unisex Salon –Gowlidoddy
+H 105,Wipro Circle Rd, 3 rd, opp. jayabheri nirvana, floor, Gowlidoddy, Serilingampalle (M), Hyderabad, Telangana 500032</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="contact-info-item wow fadeInUp delay-0-4s">
                 <i className="fa fa-envelope-open-text" />
                 <h4>Email Us</h4>
@@ -28,7 +30,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
+            <div className="col-lg-3 col-sm-6">
               <div className="contact-info-item wow fadeInUp delay-0-6s">
                 <i className="fa fa-phone-alt" />
                 <h4>Hotline</h4>
@@ -52,7 +54,7 @@ const Contact = () => {
       </div>
       {/* Map Area End */}
       {/* Contact Form Start */}
-      <div className="contact-form-area py-150 rpy-100">
+      {/* <div className="contact-form-area py-150 rpy-100">
         <div className="container">
           <div className="contact-form-wrap wow fadeInUp delay-0-2s">
             <div className="section-title mb-45 text-center">
@@ -126,7 +128,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };

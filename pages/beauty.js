@@ -34,7 +34,7 @@ const Skincare = () => {
                   At NV Glam & Nails, beauty isn’t just a service — it’s an experience of self-care, relaxation, and transformation. Our expert aestheticians use premium products and advanced techniques to give your skin the glow, balance, and care it truly deserves.
                 </p>
                 <p>Whether you’re looking for a quick refresh, a skin revival, or a luxurious spa session, we offer customized treatments for every skin type and occasion.</p>
-                <div className="skillbar-wrap">
+                {/* <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
                     <h6 className="skillbar-title">Quality Services</h6>
                     <div className="skillbar_container">
@@ -56,7 +56,7 @@ const Skincare = () => {
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -18,7 +18,7 @@ const Haircare = () => {
             <div className="col-lg-6">
               <div className="team-left rmb-55 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/teams/team-left.jpg"
+                  src="assets/images/teams/team-left1.jpg"
                   alt="Team Section"
                 />
               </div>
@@ -33,7 +33,7 @@ const Haircare = () => {
                 <p>
                   At NV Glam & Nails, we offer expert hair services for both men and women, blending style, care, and the latest techniques to give you the perfect look. Whether you want a simple haircut, a refreshing treatment, or a complete hair transformation, our stylists are here to deliver results tailored to you.
                 </p>
-                <div className="skillbar-wrap">
+                {/* <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
                     <h6 className="skillbar-title">Quality Services</h6>
                     <div className="skillbar_container">
@@ -55,7 +55,7 @@ const Haircare = () => {
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

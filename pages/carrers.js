@@ -38,7 +38,7 @@ const Carrers = () => {
                     Responsibilities
                   </Nav.Link>
                 </li>
-                <li>
+                {/* <li>
                   <Nav.Link eventKey="information" data-toggle="tab">
                     Requirements
                   </Nav.Link>
@@ -47,7 +47,7 @@ const Carrers = () => {
                   <Nav.Link eventKey="review" data-toggle="tab">
                     What We Offer
                   </Nav.Link>
-                </li>
+                </li> */}
               </Nav>
               <Tab.Content className="tab-content">
                 <Tab.Pane className="tab-pane fade" eventKey="details">
@@ -84,7 +84,7 @@ const Carrers = () => {
           </div>
 
           <p>👉 If you’re ready to bring your talent and creativity to NV Glam & Nails, we’d love to hear from you!</p>
-          <p>📩 Apply Now: Send your resume and portfolio to [your email/WhatsApp number]</p>
+          <p>📩 Apply Now: Send your resume and portfolio to [info@nvglamandnails.com]</p>
 
           </div>
     </Layout>

@@ -18,7 +18,7 @@ const Bodycare = () => {
             <div className="col-lg-6">
               <div className="team-left rmb-55 wow fadeInLeft delay-0-2s">
                 <img
-                  src="assets/images/teams/team-left.jpg"
+                  src="assets/images/teams/team-left2.jpg"
                   alt="Team Section"
                 />
               </div>
@@ -34,7 +34,7 @@ const Bodycare = () => {
                   At NV Glam & Nails, makeup is more than just enhancing beauty — it’s about creating looks that reflect your personality, style, and confidence. Whether it’s your wedding day, a festive occasion, or a casual party, our professional makeup artists craft flawless looks that last.
 We use premium, skin-friendly products and the latest techniques to ensure every look is picture-perfect, long-lasting, and tailored just for you.
                 </p>
-                <div className="skillbar-wrap">
+                {/* <div className="skillbar-wrap">
                   <div className="skillbar" data-percent={87}>
                     <h6 className="skillbar-title">Quality Services</h6>
                     <div className="skillbar_container">
@@ -56,7 +56,7 @@ We use premium, skin-friendly products and the latest techniques to ensure every
                       <span className="skill-bar-percent" />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
