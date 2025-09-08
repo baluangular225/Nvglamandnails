@@ -12,7 +12,7 @@ const Carrers = () => {
 
   return (
     <Layout pageName={"Carrers"}>
-      <PageBanner pageName={"Carrers "} textAlign={"center"} />
+      <PageBanner pageName={"Carrers"} textAlign={"center"} imageurl="/assets/images/banners/page-banner-three.jpg" />
 
        <div className="container mt-30">
         <p><b>Join Our Team – Nail Technician</b></p>

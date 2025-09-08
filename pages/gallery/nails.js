@@ -8,7 +8,7 @@ import NailsGalleryPage from "../../src/components/isotop/NailsGalleryPage";
 const Hair = () => {
   return (
     <Layout pageName="Hair Gallery">
-      <PageBanner pageName="Nails Gallery" bgText="Gallery" textAlign="center" />
+      <PageBanner pageName={"Nails Gallery"} textAlign={"center"} imageurl="/assets/images/banners/page-banner-four.jpg" />
       <NailsGalleryPage />
     </Layout>
   );
