@@ -3,11 +3,7 @@ import PageBanner from "../src/layout/PageBanner";
 const Contact = () => {
   return (
     <Layout pageName={"Contact Us"}>
-      <PageBanner
-        pageName={"Contact Us"}
-        bgText="Contact"
-        textAlign={"center"}
-      />
+        <PageBanner pageName={"Contact Us"} textAlign={"center"} imageurl="/assets/images/banners/page-banner-five.jpg" />
       <section className="contact-info-section pt-150 rpt-100 pb-120 rpb-70">
         <div className="container">
           <div className="row justify-content-center">
