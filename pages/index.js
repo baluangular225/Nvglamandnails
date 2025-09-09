@@ -441,7 +441,7 @@ const index3 = () => {
       </div>
       {/* Feedback Section End */}
        {/* Booking Section Start */}
-      <section className="booking-section-three rel z-1 bg-light-gray pt-140 rpt-90 pb-150 rpb-100">
+      {/* <section className="booking-section-three rel z-1 bg-light-gray pt-140 rpt-90 pb-150 rpb-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
@@ -528,7 +528,7 @@ const index3 = () => {
         <div className="booking-circle">
           <img src="assets/images/shapes/service-circle.png" alt="Circle" />
         </div>
-      </section>
+      </section> */}
       {/* Booking Section End */}
 
     </Layout>
