@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"..\\src\\components\\isotop\\HairGalleryPage.js -> ../isotop/PortfolioIsotop":{"id":"..\\src\\components\\isotop\\HairGalleryPage.js -> ../isotop/PortfolioIsotop","files":["static/chunks/src_components_isotop_PortfolioIsotop_js.js"]}}

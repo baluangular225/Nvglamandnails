@@ -71,16 +71,16 @@ const Footer = () => {
                 </li>
               </ul>
                <div className="social-style-one pt-40">
-                 <a href="https://www.facebook.com/profile.php?id=61580350741076" target="_blank">
+                 <a href="https://www.facebook.com/profile.php?id=61580350741076" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="https://www.instagram.com/nv.glam.and.nails/" target="_blank">
+              <a href="https://www.instagram.com/nv.glam.and.nails/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="https://wa.me/919640439996" target="_blank">
+              <a href="https://wa.me/919640439996" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-whatsapp" />
               </a>
-              <a href="#">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-youtube" />
               </a>
               </div>
@@ -144,16 +144,16 @@ export const Footer1 = () => {
           <div className="copyright-social">
             <p>© 2025 Nvglamandnails, All Rights Reserved</p>
             <div className="social-style-two">
-              <a href="https://www.facebook.com/profile.php?id=61580350741076" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=61580350741076" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="https://www.instagram.com/nv.glam.and.nails/" target="_blank">
+              <a href="https://www.instagram.com/nv.glam.and.nails/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="https://wa.me/919640439996" target="_blank">
+              <a href="https://wa.me/919640439996" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-whatsapp" />
               </a>
-              <a href="#">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-youtube" />
               </a>
             </div>

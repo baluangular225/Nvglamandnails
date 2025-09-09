@@ -1,14 +1,12 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { sidebarOnclick, stickyNav } from "../utils";
+import {  stickyNav } from "../utils";
 import {
-  About,
   Contact,
   Gallery,
   Services,
 } from "./Menus";
 import MobileMenu from "./MobileMenu";
-import Carrers from "../../pages/carrers";
 
 const Header = ({ header }) => {
   const [navToggle, setNavToggle] = useState(false);
@@ -16,41 +14,13 @@ const Header = ({ header }) => {
   useEffect(() => {
     stickyNav();
   }, []);
-  switch (header) {
-    case 1:
-      return (
-        <Header1
-          navToggle={navToggle}
-          setNavToggle={setNavToggle}
-          searchToggle={searchToggle}
-          setSearchToggle={setSearchToggle}
-        />
-      );
-    case 2:
-      return (
-        <Header2
-          navToggle={navToggle}
-          setNavToggle={setNavToggle}
-          searchToggle={searchToggle}
-          setSearchToggle={setSearchToggle}
-        />
-      );
-    case 3:
-      return (
-        <Header3
-          navToggle={navToggle}
-          setNavToggle={setNavToggle}
-        />
-      );
-    default:
-      // Use Header3 as default
-      return (
-        <Header3
-          navToggle={navToggle}
-          setNavToggle={setNavToggle}
-        />
-      );
-  }
+  // Only use Header3
+  return (
+    <Header3
+      navToggle={navToggle}
+      setNavToggle={setNavToggle}
+    />
+  );
 };
 export default Header;
 
